@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main {
+    height: 530px;
+    background: linear-gradient(to bottom, #3767C6, white);
+}
+header {
+    background-color: #6178CB;
+    text-align: center;
+    padding: 20px 10px;
+    height: 200px;
+}
+.logo {
+    width: 380px;
+}
+.search-bar {
+    position: absolute;
+    right: 550px;
+    max-width: 700px;
+    background: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+    backdrop-filter: blur(4px) saturate(180%);
+}
+.search-bar input {
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 20px;
+    color: #cac7ff;
+    align-items: center;
+}
+::placeholder {
+    color: #cac7ff;
+}
+.search-bar button img{
+    width: 25px;
+}
+.search-bar button {
+    border: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background: #58629b;
+    cursor: pointer;
+}
+.dex {
+    width: 15%;
+    position: absolute;
+    top: 300px;
+    right: 620px;
+}
+a1 {
+    color: purple;
+    position: absolute;
+    right: 350px;
+    top: 350px;
+    font-size: 30px;
+}
+a2 {
+    color: purple;
+    position: absolute;
+    right: 360px;
+    top: 450px;
+    font-size: 30px;
+}
+.barra {
+    position: absolute;
+    right: 300px;
+    top: 400px;
+}
+.barra1 {
+    position: absolute;
+    right: 300px;
+    top: 500px;
+}
+footer {
+    background-color: #3767C6;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+}
+.rectangle-info {
+    position: absolute;
+    right: 250px;
+    top: 400px;
+    text-align: center; /* Centraliza o texto horizontalmente */
+}
+#pokemon-name, #pokemon-type {
+    margin: 0;
+}
+.name {
+    position: absolute;
+    right: 90px; /* Ajuste a posição horizontal conforme necessário */
+    top: -5px; /* Ajuste a posição vertical conforme necessário */
+}
+ 
+/* Estilos para a classe "type" (Tipo) */
+.type {
+    position: absolute;
+    right: 150px; /* Ajuste a posição horizontal conforme necessário */
+    top: 100px; /* Ajuste a posição vertical conforme necessário */
+}
+.dex {
+    width: 30%; /* Ajuste a largura conforme necessário */
+    position: absolute;
+    top: 300px; /* Ajuste a posição vertical (altura) conforme necessário */
+    right: 500px; /* Ajuste a posição horizontal (largura) conforme necessário */
+}
